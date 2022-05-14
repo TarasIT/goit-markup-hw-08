@@ -1,0 +1,97 @@
+$black-text-color: #212121;
+$gray-text-color: #757575;
+$white-text-background-color: #ffffff;
+$blue-text-background-color: #2196f3;
+$footer-link-text-color: rgba(255, 255, 255, 0.6);
+$hero-footer-background-color: #2f303a;
+$team-btn-background-color: #f5f4fa;
+$accent-border-header-color: #ececec;
+$project__meta-border-color: #eeeeee;
+$background-gradient-hero-color: rgba(47, 48, 58, 0.4);
+$border-client-icon-color: #afb1b8;
+$background-work-transparent-color: rgba(47, 48, 58, 0.8);
+
+$transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$transition-duration: 250ms;
+$backdrop-background-color: rgba(0, 0, 0, 0.2);
+$background-color-submit-btn: #188ce8;
+
+:root {
+  --black-text-color: #212121;
+  --gray-text-color: #757575;
+  --white-text-background-color: #ffffff;
+  --blue-text-background-color: #2196f3;
+  --footer-link-text-color: rgba(255, 255, 255, 0.6);
+  --hero-footer-background-color: #2f303a;
+  --team-btn-background-color: #f5f4fa;
+  --accent-border-header-color: #ececec;
+  --project__meta-border-color: #eeeeee;
+  --background-gradient-hero-color: rgba(47, 48, 58, 0.4);
+  --border-client-icon-color: #afb1b8;
+  --background-work-transparent-color: rgba(47, 48, 58, 0.8);
+
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-duration: 250ms;
+  --backdrop-background-color: rgba(0, 0, 0, 0.2);
+  --background-color-submit-btn: #188ce8;
+}
+
+body {
+  font-family: 'Roboto', 'Comfortaa', 'sans-serif';
+  color: #212121;
+}
+
+ul,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation,
+.contacts,
+.portfolio-filters,
+.project-list,
+.features,
+.field-work,
+.team,
+.teammate__networks,
+.clients,
+.join-section__networks {
+  list-style: none;
+}
+
+.page-header__container,
+.navigation,
+.site-navigation,
+.site-navigation__item,
+.contacts,
+.contacts__item {
+  display: flex;
+  align-items: center;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}

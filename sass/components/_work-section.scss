@@ -1,0 +1,41 @@
+.work-section {
+  padding-bottom: 94px;
+}
+
+.field-work {
+  display: flex;
+
+  &__item--right-indent:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .field-work__item {
+    position: relative;
+  }
+}
+
+.field-work__img {
+  display: block;
+}
+
+.join-section__slogan,
+.field-work__tittle,
+.subscribe-field__slogan {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text-background-color);
+}
+
+.field-work__tittle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  text-align: center;
+  background-color: var(--background-work-transparent-color);
+}
