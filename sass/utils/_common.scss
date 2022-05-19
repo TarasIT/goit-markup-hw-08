@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', 'Comfortaa', 'sans-serif';
+  color: #212121;
+}
+
+ul,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation,
+.contacts,
+.portfolio-filters,
+.project-list,
+.features,
+.field-work,
+.team,
+.teammate__networks,
+.clients,
+.join-section__networks {
+  list-style: none;
+}
+
+// .page-header__container,
+// .navigation,
+// .site-navigation,
+// .site-navigation__item,
+// .contacts,
+// .contacts__item,
+// .contacts__link {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .section {
+//   padding: 94px 0;
+// }
+
+.container {
+  max-width: 1200px;
+  min-width: 320px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
