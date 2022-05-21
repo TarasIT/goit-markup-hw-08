@@ -133,8 +133,13 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(to right, var(--background-gradient-hero-color), var(--background-gradient-hero-color)), url("../images/hero-background-img.jpg");
   background-color: var(--hero-footer-background-color);
+  background-image: linear-gradient(to right, var(--background-gradient-hero-color), var(--background-gradient-hero-color)), url("../images/hero-mobile-480.jpg");
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, var(--background-gradient-hero-color), var(--background-gradient-hero-color)), url("../images/hero-mobile-960.jpg");
+  }
 }
 @media screen and (min-width: 480px) {
   .hero {
@@ -144,12 +149,24 @@ p {
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
+    background-image: linear-gradient(to right, var(--background-gradient-hero-color), var(--background-gradient-hero-color)), url("../images/hero-tab-768.jpg");
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, var(--background-gradient-hero-color), var(--background-gradient-hero-color)), url("../images/hero-tab-1536.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
     height: 600px;
+    background-image: linear-gradient(to right, var(--background-gradient-hero-color), var(--background-gradient-hero-color)), url("../images/hero-desktop-1600.jpg");
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, var(--background-gradient-hero-color), var(--background-gradient-hero-color)), url("../images/hero-desktop-3200.jpg");
   }
 }
 
@@ -320,7 +337,6 @@ p {
 }
 
 .work-section__container {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -446,16 +462,19 @@ p {
 @media screen and (min-width: 480px) {
   .teammate__photo {
     height: 460px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
   .teammate__photo {
     height: 374px;
+    width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
   .teammate__photo {
     height: 260px;
+    width: 270px;
   }
 }
 
@@ -465,6 +484,11 @@ p {
   background-color: var(--white-text-background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+@media screen and (min-width: 1200px) {
+  .teammate__description {
+    padding-bottom: 30px;
+  }
 }
 
 .teammate__name,
