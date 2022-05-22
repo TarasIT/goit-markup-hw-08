@@ -136,7 +136,8 @@
             <li class="field-work__item field-work__item--right-indent">
               <img
                 class="field-work__img"
-                src="images/img1.jpg"
+                srcset="./images/desktop-app-370.jpg 1x, ./images/desktop-app-740.jpg 2x"
+                src="./images/desktop-app-370.jpg"
                 width="370"
                 alt="Фотография человека, работающего с айпадом и настольным компьютером."
               />
@@ -146,7 +147,8 @@
             <li class="field-work__item field-work__item--right-indent">
               <img
                 class="field-work__img"
-                src="images/img2.jpg"
+                srcset="./images/mobile-app-370.jpg 1x, ./images/mobile-app-740.jpg 2x"
+                src="./images/mobile-app-370.jpg"
                 width="370"
                 alt="Фотография человека, работающего с телефоном и ноутбуком."
               />
@@ -156,7 +158,8 @@
             <li class="field-work__item field-work__item--right-indent">
               <img
                 class="field-work__img"
-                src="images/img3.jpg"
+                srcset="./images/design-decisions-370.jpg 1x, ./images/design-decisions-740.jpg 2x"
+                src="./images/design-decisions-370.jpg"
                 width="370"
                 alt="Фотография человека, работающего с айпадом перед монитором."
               />
@@ -491,69 +494,71 @@
       </section>
     </main>
 
-    <!-- <footer class="page-footer">
+    <footer class="page-footer">
       <div class="container page-footer__container">
-        <div class="contacts-box contacts-box--left-position">
-          <a class="logo contacts-box__logo" href="" lang="en"
-            >Web<span class="logo--light-color">Studio</span></a
-          >
-          <address class="address">
-            <p class="address__post">г. Киев, пр-т Леси Украинки, 26</p>
-            <a class="address__link" href="mailto:info@example.com">info@example.com</a>
-            <a class="address__link" href="tel:+380991111111">+38 099 111 11 11</a>
-          </address>
-        </div>
-        <div class="join-section page-footer__join-section">
-          <p class="join-section__slogan join-section__slogan--top-position">присоединяйтесь</p>
-          <ul class="join-section__networks">
-            <li class="join-section__network join-section__network--right-indent">
-              <a class="social-network social-network--change-background" href=""
-                ><svg
-                  class="social-network__logo social-network__logo--change-color"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#instagram-1"></use></svg
-              ></a>
-            </li>
-            <li class="join-section__network join-section__network--right-indent">
-              <a class="social-network social-network--change-background" href="">
-                <svg
-                  class="social-network__logo social-network__logo--change-color"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#twitter-2"></use></svg
-              ></a>
-            </li>
-            <li class="join-section__network join-section__network--right-indent">
-              <a class="social-network social-network--change-background" href=""
-                ><svg
-                  class="social-network__logo social-network__logo--change-color"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#facebook-3"></use></svg
-              ></a>
-            </li>
-            <li class="join-section__network join-section__network--right-indent">
-              <a class="social-network social-network--change-background" href=""
-                ><svg
-                  class="social-network__logo social-network__logo--change-color"
-                  width="20"
-                  height="20"
-                >
-                  <use href="./images/icons.svg#linkedin-4"></use></svg
-              ></a>
-            </li>
-          </ul>
+        <div class="page-footer-tablet">
+          <div class="contacts-box contacts-box--left-position">
+            <a class="logo contacts-box__logo" href="" lang="en"
+              >Web<span class="logo--light-color">Studio</span></a
+            >
+            <address class="address">
+              <p class="address__post">г. Киев, пр-т Леси Украинки, 26</p>
+              <a class="address__link" href="mailto:info@example.com">info@example.com</a>
+              <a class="address__link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </address>
+          </div>
+          <div class="join-section page-footer__join-section">
+            <p class="join-section__slogan join-section__slogan--top-position">присоединяйтесь</p>
+            <ul class="join-section__networks">
+              <li class="join-section__network join-section__network--right-indent">
+                <a class="social-network social-network--change-background" href=""
+                  ><svg
+                    class="social-network__logo social-network__logo--change-color"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#instagram-1"></use></svg
+                ></a>
+              </li>
+              <li class="join-section__network join-section__network--right-indent">
+                <a class="social-network social-network--change-background" href="">
+                  <svg
+                    class="social-network__logo social-network__logo--change-color"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#twitter-2"></use></svg
+                ></a>
+              </li>
+              <li class="join-section__network join-section__network--right-indent">
+                <a class="social-network social-network--change-background" href=""
+                  ><svg
+                    class="social-network__logo social-network__logo--change-color"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#facebook-3"></use></svg
+                ></a>
+              </li>
+              <li class="join-section__network join-section__network--right-indent">
+                <a class="social-network social-network--change-background" href=""
+                  ><svg
+                    class="social-network__logo social-network__logo--change-color"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#linkedin-4"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
         <form class="subscribe-field page-footer__subscribe-field">
           <p class="subscribe-field__slogan subscribe-field__slogan--top-position">
             Подпишитесь на рассылку
           </p>
           <div class="field-group">
-            <label
+            <label class="field-group__label"
               ><input
                 type="email"
                 name="email"
@@ -562,16 +567,16 @@
                 class="field-group__input"
                 required
             /></label>
-            <button type="submit" class="button">
+            <button type="submit" class="button field-group__button">
               Подписаться
               <svg class="button__icon" width="24" height="24">
-                <use href="./images/icon-send.svg#icon-send"></use>
+                <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
           </div>
         </form>
       </div>
-    </footer> -->
+    </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
