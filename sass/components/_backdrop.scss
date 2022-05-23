@@ -6,6 +6,7 @@
   background-color: var(--backdrop-background-color);
 
   transition: opacity 250ms, visibility 250ms;
+  overflow-y: scroll;
 }
 
 .is-hidden {

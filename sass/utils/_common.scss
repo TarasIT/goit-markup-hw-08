@@ -3,6 +3,11 @@ body {
   color: #212121;
 }
 
+body.menu-open,
+body.modal-open {
+  overflow: hidden;
+}
+
 ul,
 h1,
 h2,
@@ -21,7 +26,10 @@ p {
 .team,
 .teammate__networks,
 .clients,
-.join-section__networks {
+.join-section__networks,
+.mobile-menu-navigation,
+.mobile-menu-contacts,
+.menu-socials-list {
   list-style: none;
 }
 
