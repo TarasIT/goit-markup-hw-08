@@ -19,6 +19,12 @@
   }
 }
 
+.is-hidden {
+  .modal {
+    transform: translate(-50%, -50%) scale(2.5) rotate(20deg);
+  }
+}
+
 .button-close {
   position: absolute;
   top: 8px;
