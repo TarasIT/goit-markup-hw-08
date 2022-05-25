@@ -1,6 +1,17 @@
+.project-examples-section {
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .project__container {
   max-width: 480px;
-  padding-bottom: 80px;
 
   @media screen and (min-width: 768px) {
     max-width: 768px;
@@ -8,24 +19,32 @@
 
   @media screen and (min-width: 1200px) {
     max-width: 1200px;
-    padding-bottom: 94px;
   }
 }
 
 .project-list {
-  .project__item {
-    margin-bottom: 30px;
+  margin-bottom: -30px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 40px;
   }
 
-  .project__item:last-child {
-    margin-bottom: 0;
+  @media screen and (min-width: 768px) {
+    margin-top: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 50px;
+  }
+
+  .project__item {
+    margin-bottom: 30px;
   }
 
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
-    margin-bottom: -30px;
 
     .project__item {
       margin-right: 30px;

@@ -1092,25 +1092,6 @@ p {
   color: var(--blue-text-background-color);
 }
 
-.section__container {
-  max-width: 480px;
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-@media screen and (min-width: 768px) {
-  .section__container {
-    max-width: 768px;
-    padding-bottom: 30px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .section__container {
-    max-width: 1200px;
-    padding-top: 94px;
-    padding-bottom: 50px;
-  }
-}
-
 .portfolio-filters {
   display: flex;
   flex-wrap: wrap;
@@ -1164,9 +1145,21 @@ p {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+@media screen and (max-width: 1199px) {
+  .project-examples-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project-examples-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .project__container {
   max-width: 480px;
-  padding-bottom: 80px;
 }
 @media screen and (min-width: 768px) {
   .project__container {
@@ -1176,22 +1169,35 @@ p {
 @media screen and (min-width: 1200px) {
   .project__container {
     max-width: 1200px;
-    padding-bottom: 94px;
   }
 }
 
+.project-list {
+  margin-bottom: -30px;
+}
+@media screen and (max-width: 767px) {
+  .project-list {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .project-list {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project-list {
+    margin-top: 50px;
+  }
+}
 .project-list .project__item {
   margin-bottom: 30px;
-}
-.project-list .project__item:last-child {
-  margin-bottom: 0;
 }
 @media screen and (min-width: 768px) {
   .project-list {
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
-    margin-bottom: -30px;
   }
   .project-list .project__item {
     margin-right: 30px;
@@ -1308,6 +1314,11 @@ p {
 
 .section-tittle--bottom-indent {
   margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .section-tittle--bottom-indent {
+    margin-bottom: 50px;
+  }
 }
 
 .logo {
