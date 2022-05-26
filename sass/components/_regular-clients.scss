@@ -2,23 +2,6 @@
   text-align: center;
 }
 
-.regular-clients__container {
-  max-width: 480px;
-  min-width: 320px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    max-width: 1200px;
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-}
-
 .clients {
   display: flex;
   flex-wrap: wrap;
