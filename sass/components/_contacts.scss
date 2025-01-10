@@ -32,6 +32,9 @@
 }
 
 .contacts__item__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
 
   color: var(--gray-text-color);
@@ -46,4 +49,10 @@
     color: var(--blue-text-background-color);
     fill: var(--blue-text-background-color);
   }
+}
+
+.contacts__link__icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
 }
