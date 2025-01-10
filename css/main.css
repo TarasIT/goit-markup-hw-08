@@ -1527,6 +1527,7 @@ p {
 .menu-socials-list {
   display: grid;
   row-gap: 20px;
+  padding-bottom: 20px;
 }
 
 .menu-social-link {
